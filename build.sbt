@@ -6,4 +6,5 @@ version := "0.1"
 
 organization := "com.rabitarochan"
 
-seq(sandboxSettings: _*)
+// remove a comment if enabling plugins.
+//seq(sandbox2Settings: _*)

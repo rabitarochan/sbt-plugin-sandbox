@@ -13,7 +13,7 @@ object Sandbox2Plugin extends Plugin {
 
   import Sandbox2Keys._
 
-  lazy val sandboxSettings = Seq(
+  lazy val sandbox2Settings = Seq(
     sandbox <<= inputTask { argTask: TaskKey[Seq[String]] => 
       ( argTask ) map { args => 
         println( "sandbox2 args:" )
